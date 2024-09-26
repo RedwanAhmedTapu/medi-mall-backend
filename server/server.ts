@@ -23,7 +23,7 @@ import '../db/connection';
 // Set up CORS (Cross-Origin Resource Sharing)
 app.use(
   cors({
-    origin: 'http://localhost:3000', // Allow all origins (not recommended for production)
+    origin: 'https://medi-mall.vercel.app', // Allow all origins (not recommended for production)
     credentials: true, // Allow sending cookies
   })
 );
